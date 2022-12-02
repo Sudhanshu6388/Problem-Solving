@@ -1,0 +1,48 @@
+.box:hover{
+    box-shadow:0.5px 0.5px 30px black;
+    transform: translateX(10px);
+}
+.box{
+    height: 25s0px;
+    width: 450px;
+    padding: 2rem;
+    margin: 10px;
+    background-color:white ;
+    border-radius: 15px;
+    transition: all 1s;
+    border: 2px solid lightgreen;
+    cursor: pointer;
+    
+}
+#box_1 :hover{
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#box_2 :hover{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#box_3 :hover{
+    background-color: lightsalmon;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#box_4 :hover{
+    background-color: plum;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 470px;
+}
+#box_5 :hover{
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+@media(max-width: 450px){
+    body{
+    
+    }
+    }
+
